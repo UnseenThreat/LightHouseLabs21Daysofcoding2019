@@ -61,3 +61,25 @@ function findModule(string){
 }
 
 loadModule(findModule("life-support"))
+
+//Day 5
+
+function findModuleIndex(string){
+  var num = 0;
+  
+  
+  while ( num < countModules() ){
+    
+    if (availableModules[num].name === string && availableModules[num].essential === true){
+     
+      return num;
+      
+    }
+    num++;
+  }
+  
+  return null;
+  
+}
+
+loadModule(findModuleIndex("propulsion"));
