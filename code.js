@@ -83,3 +83,7 @@ function findModuleIndex(string){
 }
 
 loadModule(findModuleIndex("propulsion"));
+
+//Day 6
+
+loadModule(findModuleIndex("navigation"));
