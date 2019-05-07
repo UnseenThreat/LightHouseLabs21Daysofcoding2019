@@ -87,3 +87,17 @@ loadModule(findModuleIndex("propulsion"));
 //Day 6
 
 loadModule(findModuleIndex("navigation"));
+
+//Day 7
+
+function resetLARRY(){
+  
+  for(i = 0; i < 10; i++){
+    
+    LARRY.quack();
+    
+  }
+  
+}
+
+resetLARRY();
