@@ -101,3 +101,7 @@ function resetLARRY(){
 }
 
 resetLARRY();
+
+//Day 8
+
+loadModule(findModule("communication"));
