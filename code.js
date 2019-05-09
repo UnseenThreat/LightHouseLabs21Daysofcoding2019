@@ -105,3 +105,13 @@ resetLARRY();
 //Day 8
 
 loadModule(findModule("communication"));
+
+//Day 9
+
+function setMessage(){
+  
+  radio.message = JSON.stringify(navigation);
+  
+}
+
+setMessage();
