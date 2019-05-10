@@ -115,3 +115,13 @@ function setMessage(){
 }
 
 setMessage();
+
+//Day 10
+
+function activateBeacon(){
+  
+  radio.beacon = true;
+  
+}
+
+activateBeacon();
