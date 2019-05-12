@@ -125,3 +125,13 @@ function activateBeacon(){
 }
 
 activateBeacon();
+
+// Day 11
+
+function setFrequency(){
+
+
+  radio.frequency = ((radio.range.high + radio.range.low)/2);
+  
+
+}
