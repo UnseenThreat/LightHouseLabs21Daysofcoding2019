@@ -145,3 +145,19 @@ function initialize(){
   navigation.z = 0;
   
 }
+
+// Day 13
+
+function calibrateX(){
+  for(i = 1; i < 12; i++){
+    var signal = checkSignal();
+    if(typeof signal !== "undefined"){
+      navigation.x = signal;
+      break;
+    }
+    
+  }
+  
+}
+
+calibrateX();
