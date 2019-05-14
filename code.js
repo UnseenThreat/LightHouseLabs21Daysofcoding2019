@@ -161,3 +161,31 @@ function calibrateX(){
 }
 
 calibrateX();
+
+// Day 14
+function calibrateY(){
+  for(i = 1; i < 60; i++){
+    var signal = checkSignal();
+    if(typeof signal !== "undefined"){
+      navigation.y = signal;
+      break;
+    }
+    
+  }
+  
+}
+
+function calibrateZ(){
+  for(i = 1; i < 60; i++){
+    var signal = checkSignal();
+    if(typeof signal !== "undefined"){
+      navigation.z = signal;
+      break;
+    }
+    
+  }
+  
+}
+
+calibrateY();
+calibrateZ();
