@@ -189,3 +189,13 @@ function calibrateZ(){
 
 calibrateY();
 calibrateZ();
+
+// Day 15
+
+function calibrate(){
+  
+  calibrateX();
+  calibrateY();
+  calibrateZ();
+
+}
