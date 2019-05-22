@@ -209,3 +209,12 @@ function setSpeed(speed){
   }
   
 }
+
+//Day 17
+function activateAntenna(){
+  
+  ship.antenna.active = true;
+  
+}
+
+activateAntenna();
