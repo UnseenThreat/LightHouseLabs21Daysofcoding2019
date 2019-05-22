@@ -247,3 +247,35 @@ function configureBroadcast(){
 }
 
 configureBroadcast();
+
+//Day 20
+
+function decodeMessage(message){
+  
+  letters = message.split('');
+  
+  for(i = 0; i < letters.length; i++){
+    
+    if (letters[i] === '0'){
+      letters[i] = 'o';
+    }
+    if (letters[i] === '1'){
+      letters[i] = 'i';
+    }
+    if (letters[i] === '2'){
+      letters[i] = 'u';
+    }
+    if (letters[i] === '3'){
+      letters[i] = 'e';
+    }
+    if (letters[i] === '4'){
+      letters[i] = 'a';
+    }
+    if (letters[i] === '5'){
+      letters[i] = 'y';
+    } 
+  
+    
+  }
+  return letters.join('');
+}
