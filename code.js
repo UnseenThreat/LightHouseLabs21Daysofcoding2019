@@ -201,6 +201,7 @@ function calibrate(){
 }
 
 //Day 16
+
 function setSpeed(speed){
   
   var speedInt = parseInt(speed);
@@ -211,6 +212,7 @@ function setSpeed(speed){
 }
 
 //Day 17
+
 function activateAntenna(){
   
   ship.antenna.active = true;
@@ -218,3 +220,17 @@ function activateAntenna(){
 }
 
 activateAntenna();
+
+//Day 18
+
+function sendBroadcast(){
+  
+  for(i = 0; i <100; i++){
+    
+    broadcast()
+      
+  }
+  
+}
+
+sendBroadcast();
