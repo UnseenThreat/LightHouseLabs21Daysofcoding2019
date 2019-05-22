@@ -199,3 +199,13 @@ function calibrate(){
   calibrateZ();
 
 }
+
+//Day 16
+function setSpeed(speed){
+  
+  var speedInt = parseInt(speed);
+  if(speedInt >= 0){
+    navigation.speed = speedInt;
+  }
+  
+}
