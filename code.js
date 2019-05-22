@@ -219,7 +219,7 @@ function activateAntenna(){
   
 }
 
-activateAntenna();
+//activateAntenna();
 
 //Day 18
 
@@ -233,4 +233,17 @@ function sendBroadcast(){
   
 }
 
-sendBroadcast();
+//sendBroadcast();
+
+//Day 19 
+
+function configureBroadcast(){
+  
+  setFrequency();
+  activateAntenna();
+  sendBroadcast();
+  
+  
+}
+
+configureBroadcast();
