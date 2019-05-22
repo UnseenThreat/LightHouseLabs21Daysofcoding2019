@@ -279,3 +279,29 @@ function decodeMessage(message){
   }
   return letters.join('');
 }
+
+//Day 21
+
+function returnToEarth(){
+  x = broadcast("x");
+  y = broadcast("y");
+  z = broadcast("z");
+  
+  x1 = decodeMessage(x);
+  y1 = decodeMessage(y);
+  z1 = decodeMessage(z);
+  
+  x2 = parseInt(x1, 16);
+  y2 = parseInt(y1, 16);
+  z2 = parseInt(z1, 16);
+  
+  navigation.x = x2;
+  navigation.y = y2;
+  navigation.z = z2;
+  
+}
+
+returnToEarth();
+
+
+// And thats it ... we've finished! Thanks for following me through this journey, and thank you Lighthouse Labs for providing this opportunity!
